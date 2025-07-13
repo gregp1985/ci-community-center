@@ -54,8 +54,8 @@
       </nav>
     </header>
     <main>
-        <h2>Register to sell at the Jumble sale</h2>
-        <p>Although we have limited space we will try to accomodate anyone that wants to sell at our jumble sale! If you register your details below we wqill get back to you to discuss availability and costs.</p>
+        <h2>Book a Badminton Court</h2>
+        <p>Please fill out the booking request form below and we will confirm availability and get back to you ASAP!</p>
         <br>
         <form action="success-badminton.html" method="post">
             <label for="fullname">Full Name</label><br>
@@ -64,9 +64,28 @@
             <input type="email" id="email" name="email" required><br>
             <label for="phone">Phone Number</label><br>
             <input type="number" id="phone" name="phone" required><br>
-            
+            <label for="bookingdate">Date</label><br>
+            <select id="bookingdate" name="bookingdate" required>
+                <option value="Thurday 24th July">Thurday 24th August</option>
+                <option value="Saturday 26th July">Saturday 26th July</option>
+                <option value="Thurday 31st July">Thurday 31st July</option>
+                <option value="Saturday 2nd August">Saturday 2nd August</option>
+                <option value="Thurday 7th August">Thurday 7th August</option>
+                <option value="Saturday 9th August">Saturday 9th August</option>
+                <option value="Thurday 14th August">Thurday 14th August</option>
+                <option value="Saturday 16th August">Saturday 16th August</option>
+            </select><br>
+            <label for="bookingtime">Time (5pm-10pm Thursday & 8am-5pm Saturday)</label><br>
+            <input type="time" id="bookingtime" name="bookingtime" required><br>
+            <label for="number-people">Number of People</label><br>
+            <select id="number-people" name="number-people" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br>
             <label for="checkbox1">Have you booked with us before?</label><br>
-            <input type="checkbox" id="checkbox1" name="checkbox1"> 
+            <input type="checkbox" id="checkbox1" name="checkbox1"><br>
             <input class="button" type="submit" value="Submit">
         </form>
     </main>
