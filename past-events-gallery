@@ -45,8 +45,8 @@
       </label>
       <nav>
         <ul id="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="past-events.html">Past Events Gallery</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="past-events.html" class="active">Past Events Gallery</a></li>
           <li><a href="#whatson">Whats On</a></li>
           <li><a href="#bookthehall">Book the Hall</a></li>
         </ul>
