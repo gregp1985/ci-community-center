@@ -34,8 +34,9 @@
     <!-- Custom Style Sheet -->
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
+  
   <body>
-    <header>
+  <header>
       <a href="index.html">
         <h1>C.I Community Center</h1>
       </a>
@@ -45,83 +46,20 @@
       </label>
       <nav>
         <ul id="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="past-events.html">Past Events Gallery</a></li>
-          <li><a href="#whatson">Whats On</a></li>
-          <li><a href="#bookthehall">Book the Hall</a></li>
+          <li><a href="index.html#whatson">Whats On</a></li>
+          <li><a href="index.html#bookthehall">Book the Hall</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="about-section">
-        <div>
-          <h2>Welcome to the C.I Community Center</h2>
-          <p>
-            We have lots of events here at the C.I Community Center, so whether
-            you want to book a badminton court or book the hall for a private
-            event, we can accomodate you!
-          </p>
-        <div id="home-page-image">
-          <img src="assets/images/community-center.jpg" width="100%" height="100%" alt="Community Center" />
-      </section>
-      <section id="whatson-section">
-        <h2>What's On</h2>
-        <div class="event-card">
-            <h3>Jumble Sale</h3>
-            <img src="assets/images/jumble.jpg" alt="jumble" style="width: 100%;">
-            <div class="ec-container">
-                <p>Come and see what treasures you can find at our monthly Jumble Sale!</p>
-                <p><b>When:</b> Last Sunday of every month<br></p>
-                <p><b>Cost:</b> Free to attend</p>
-            </div>
-            <form action="seller-registration.html">
-            <input class="button" type="submit" value="Register as a Seller">
-            </form>
-        </div>
-        <div class="event-card">
-            <h3>Badminton Courts</h3>
-            <img src="assets/images/badminton.jpg" alt="badminton" style="width: 100%;">
-            <div class="ec-container">
-                <p>Stay healthy and active.. come and make use of the four badminton courts</p>
-                <p><b>When:</b><br>
-                    Thurday's 5pm-10pm<br>
-                    Saturday's 8am-5pm<br></p>
-                <p><b>Cost:</b> £15/hour</p>
-            </div>
-            <form action="book-a-badminton-court.html">
-            <input class="button" type="submit" value="Book a Court">
-            </form>
-        </div>
-        <div class="event-card">
-            <h3>Learn to Tango!</h3>
-            <img src="assets/images/tango.jpg" alt="tango" style="width: 100%;">
-            <div class="ec-container">
-                <p>Learn the forbidden dance... come alone or with a partner and learn how to dance the Tango!</p>
-                <p><b>When:</b> Tuesday's 6:30pm-8pm></p>
-                <p><b>Cost:</b> £12pp</p>
-            </div>
-            <button>Register Interest</button>
-        </div>
-      </section>
-      <section id="bookhall-section">
-        <h2>Book the Hall</h2>
-        <p>Interested in Booking our hall for a private event? Complete the form below and we will get your event booked in!</p>
-        <form class="form-styling" action="success-hallbooking.html" method="post">
-            <label for="fullname">Full Name</label><br>
-            <input type="text" id="fullname" name="fullname" required><br>
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="phone">Phone Number</label><br>
-            <input type="number" id="phone" name="phone" required><br>
-            <label for="date">Date of Event</label><br>
-            <input type="date" id="date" name="date" required><br>
-            <label for="time-start">Start Time</label><br>
-            <input type="time" id="time-start" name="time-start" required><br>
-            <label for="time-end">End Time</label><br>
-            <input type="time" id="time-end" name="time-end" required><br>
-            <input type="submit">
+        <h2>Success!</h2>
+        <p> Thanks for booking a Badminton Court! We will confirm availability and get back to you ASAP!</p>
+        <br>
+        <form action="index.html">
+            <input class="button" type="submit" value="Return to Home Page">
         </form>
-      </section>
     </main>
     <footer>
       <div>
