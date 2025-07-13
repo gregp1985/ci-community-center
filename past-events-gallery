@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for Search Engines -->
+    <meta
+      name="description"
+      content="C.I. Community Center page. For all community members to view and book upcoming events and look at past events."
+    />
+    <meta
+      name="keywords"
+      content="community center, badminton, jumble sale,tango classes"
+    />
+    <title>C.I. Community Center</title>
+    <!--Favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="assets/favicon/people-favicon-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/people-favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/people-favicon-16.png"
+    />
+    <!-- Custom Style Sheet -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <h1>C.I Community Center</h1>
+      </a>
+      <input type="checkbox" id="nav-dropdown" name="nav-dropdown" />
+      <label for="nav-dropdowen" class="nav-dropdown-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="past-events.html">Past Events Gallery</a></li>
+          <li><a href="#whatson">Whats On</a></li>
+          <li><a href="#bookthehall">Book the Hall</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <Gallery>
+            <img src="assets/images/gallery/gallery1-people-listening.jpg" alt="People listening to Lecture">
+            <img src="assets/images/gallery/gallery2-seniors-exercise.jpg" alt="Seniors Exercise Classes">
+            <img src="assets/images/gallery/gallery3-kids-in-hall.jpg" alt="Children playing">
+            <img src="assets/images/gallery/gallery4-cakes.jpg" alt="Cake Sale">
+            <img src="assets/images/gallery/gallery5-kid-playing-badminton.jpg" alt="Child playing Badminton">
+            <img src="assets/images/gallery/gallery6-women-talking.jpg" alt="Women talking">
+            <img src="assets/images/gallery/gallery7-food-drink.jpg" alt="Men getting refreshments">
+            <img src="assets/images/gallery/gallery8-people-relaxing-in-sun.jpg" alt="People relaxing in the Sun">
+            <img src="assets/images/gallery/gallery9-dance-classes.jpg" alt="Dance Classes">
+            <img src="assets/images/gallery/gallery10-dominoes.jpg" alt="People playing dominoes">
+            <img src="assets/images/gallery/gallery11-kids-club.jpg" alt="Kids Club">
+            <img src="assets/images/gallery/gallery12-playing-badminton.jpg" alt="Badminton Player">
+            <img src="assets/images/gallery/gallery13-senior-exercise.jpg" alt="Seniors Exercise Classes">
+        </Gallery>
+    </main>
+    <footer>
+      <div>
+        <ul id="social-media-links">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Youtube page (opens in a new tab)"
+              ><i class="fa-brands fa-square-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Opening Times</h2>
+        <table id="opening-times-table">
+          <tr>
+            <th></th>
+            <th>Open</th>
+            <th>Close</th>
+          </tr>
+          <tr>
+            <td>Mon - Fri</td>
+            <td>8:30am</td>
+            <td>10pm</td>
+          </tr>
+          <tr>
+            <td>Sat</td>
+            <td>8:30am</td>
+            <td>8pm</td>
+          </tr>
+          <tr>
+            <td>Sun</td>
+            <td>10am</td>
+            <td>6pm</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>
+            C.I Community Center<br>
+            C.I Avenue<br>
+            Community<br>
+            CI25 7GP
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ce7c7e5249.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
