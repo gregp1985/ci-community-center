@@ -104,23 +104,41 @@
         </div>
       </section>
       <section id="bookthehall">
-        <h2>Book the Hall</h2>
-        <p>Interested in Booking our hall for a private event? Complete the form below and we will get your event booked in!</p>
+        <div>
+          <h2>Book the Hall</h2>
+          <p>Interested in Booking our hall for a private event? Complete the form below and we will get your event booked in!</p>
+        </div>
+        <div>
         <form class="form-styling" action="success-hallbooking.html" method="post">
-            <label for="fullname">Full Name</label><br>
-            <input type="text" id="fullname" name="fullname" required><br>
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="phone">Phone Number</label><br>
-            <input type="number" id="phone" name="phone" required><br>
-            <label for="date">Date of Event</label><br>
-            <input type="date" id="date" name="date" required><br>
-            <label for="time-start">Start Time</label><br>
-            <input type="time" id="time-start" name="time-start" required><br>
-            <label for="time-end">End Time</label><br>
-            <input type="time" id="time-end" name="time-end" required><br>
-            <input id="form-submit-button" type="submit" value="Book Now!">
+            <div class="form-element flex100">
+              <label for="fullname">Full Name</label><br>
+              <input type="text" class="form-element-text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-element flex100">
+              <label for="email">Email Address</label><br>
+              <input type="email" class="form-element-text" id="email" name="email" required>
+            </div>
+            <div class="form-element flex100">
+              <label for="phone">Phone Number</label><br>
+              <input type="number" class="form-element-text" id="phone" name="phone" required>
+            </div>
+            <div class="form-element flex33">
+              <label for="date">Date of Event</label><br>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-element flex33">
+              <label for="time-start">Start Time</label><br>
+              <input type="time" id="time-start" name="time-start" required>
+            </div>
+            <div class="form-element flex33">
+              <label for="time-end">End Time</label><br>
+              <input type="time" id="time-end" name="time-end" required>
+            </div>            
+            <div class="form-element flex100 flex-center">
+              <input id="form-submit-button" type="submit" value="Book Now!">
+            </div>
         </form>
+        </div>
       </section>
     </main>
     <footer>

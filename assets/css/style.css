@@ -10,7 +10,8 @@ h1,
 h2,
 h3,
 h4 {
-
+text-align: center;
+text-transform: uppercase;
 }
 header {
     background-color: lightgrey;
@@ -58,20 +59,33 @@ nav {
     max-height: 350px;
     max-width: 500px;
 }
-.form-styling > input {
-    display: block;
+
+/* Book The Hall Section */
+.form-styling {
+border: 2px;
+border-color: darkblue;
+border-style: solid;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 5px;
 }
-.form-styling > label {
-    font-weight: bold;
+.form-element {
+    padding: 5px;
+}
+.flex100 {
+    flex-basis: 100%;
+}
+.flex33 {
+    flex-basis: 30%;
+}
+.flex-center {
+    text-align: center;
 }
 #form-submit-button {
     color: darkblue;
     font-size: large;
     font-weight: bold;
-}
-/* Book The Hall Section */
-#bookthehall {
-
 }
 /* Footer */
 footer {
