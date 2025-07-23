@@ -30,4 +30,16 @@ footer {
     background-color: lightgrey;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1rem;
+}
+#social-media-links {
+    list-style-type: none;
+}
+#social-media-links i {
+    font-size: 180%;
+    color: darkblue;
+}
+#social-media-links a {
+    text-decoration: none;
+    color: darkblue;
 }
