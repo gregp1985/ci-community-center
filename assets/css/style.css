@@ -9,8 +9,10 @@ color: darkblue;
 h1,
 h2,
 h3 {
-text-align: center;
 text-transform: uppercase;
+}
+h2 {
+    text-align: center;
 }
 header {
     background-color: lightgrey;
@@ -34,7 +36,7 @@ header a {
     margin-bottom: 1em;
 }
 nav {
-    position: absolute;
+    /* position: absolute; */
     background-color: lightgrey;
     width: 100%;
     display: block;
@@ -53,10 +55,6 @@ nav {
 }
 .nav-dropdown-label {
     font-size: 2rem;
-}
-#home-page-image {
-    max-height: 350px;
-    max-width: 500px;
 }
 
 /* Book The Hall Section */
