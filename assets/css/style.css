@@ -26,6 +26,18 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+/* Images */
+.main-image {
+    object-fit: contain;
+    width: 100%;
+}
+/* Max widths */
+.mw600 {
+    max-width: 600px;
+    max-height: 800px;
+    margin: auto;
+}
+
 /* Navbar styles with dropdown toggle */
 #nav-links {
     font-size: 110%;
@@ -77,6 +89,9 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 padding: 5px;
+max-width: 600px;
+max-height: 500px;
+margin: auto;
 }
 .form-element {
     padding: 5px;

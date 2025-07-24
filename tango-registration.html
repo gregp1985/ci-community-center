@@ -54,11 +54,15 @@
       </nav>
     </header>
     <main>
-        <h2>Book a Badminton Court</h2><hr>
-        <p class="mw600">Please fill out the booking request form below and we will confirm availability and get back to you ASAP!</p>
+        <h2>Register interest in Tango Classes</h2><hr>
+        <div class="main-image">
+            <img src="assets/images/tango.jpg" alt="Tango dancers">
+        </div>
+        <br>
+        <p class="mw600">Want to learn to tango? We can accomodate all skill levels! So even if you have never danced before, fill in your details below and we will get back to you ASAP!</p>
         <br>
         <div>
-          <form class="form-styling" action="success-badminton.html" method="post">
+          <form class="form-styling" action="success-tangoregistration.html" method="post">
             <div class="form-element flex100">
               <label for="fullname">Full Name</label><br>
               <input type="text" id="fullname" name="fullname" required>
@@ -71,40 +75,10 @@
               <label for="phone">Phone Number</label><br>
               <input type="number" id="phone" name="phone" required>
             </div>
-            <div class="form-element flex100">
-              <label for="bookingdate">Date</label><br>
-              <select id="bookingdate" name="bookingdate" required>
-                <option value="Thurday 24th July">Thurday 24th August</option>
-                <option value="Saturday 26th July">Saturday 26th July</option>
-                <option value="Thurday 31st July">Thurday 31st July</option>
-                <option value="Saturday 2nd August">Saturday 2nd August</option>
-                <option value="Thurday 7th August">Thurday 7th August</option>
-                <option value="Saturday 9th August">Saturday 9th August</option>
-                <option value="Thurday 14th August">Thurday 14th August</option>
-                <option value="Saturday 16th August">Saturday 16th August</option>
-              </select>
+            <div class="form-element flex100 flex-center">
+              <input class="button" type="submit" value="Register Interest">
             </div>
-            <div class="form-element flex100">
-              <label for="bookingtime">Time (5pm-10pm Thursday & 8am-5pm Saturday)</label><br>
-              <input type="time" id="bookingtime" name="bookingtime" required><br>
-            </div>
-            <div class="form-element flex100">
-              <label for="number-people">Number of People</label><br>
-              <select id="number-people" name="number-people" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-              </select>
-            </div>
-            <div class="form-element flex100">
-              <label for="checkbox1">Have you booked with us before?</label><br>
-              <input type="checkbox" id="checkbox1" name="checkbox1">
-            </div>
-            <div class="form-element flex100">
-              <input class="button" type="submit" value="Submit Request">
-            </div>
-        </form>
+          </form>
         </div>
     </main>
     <footer>
