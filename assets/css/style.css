@@ -37,13 +37,28 @@ nav {
     object-fit: contain;
     width: 100%;
 }
+.image {
+    object-fit: contain;
+    width: 100%;
+}
+gallery img {
+    max-width: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+gallery img {
+    max-width: 250px;
+}
 /* Max widths */
 .mw600 {
     max-width: 600px;
-    max-height: 1000px;
+    
     margin: auto;
 }
-
+.mw800 {
+    max-width: 800px;
+    margin: auto;
+}
 /* Navbar styles with dropdown toggle */
 #nav-links {
     font-size: 110%;
