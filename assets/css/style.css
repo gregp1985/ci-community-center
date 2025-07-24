@@ -34,7 +34,7 @@ header a {
 /* Max widths */
 .mw600 {
     max-width: 600px;
-    max-height: 800px;
+    max-height: 1000px;
     margin: auto;
 }
 
