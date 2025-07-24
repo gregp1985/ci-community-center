@@ -23,7 +23,6 @@ header {
     padding-top: 1rem;
     padding-right: 2rem;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
@@ -48,10 +47,14 @@ nav {
 /* Images */
 gallery {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 gallery img {
     max-width: 250px;
     width: 100%;
+    padding: 5px;
     object-fit: contain;    
 }
 .image {
@@ -68,8 +71,6 @@ gallery img {
     max-width: 800px;
     margin: auto;
 }
-
-
 /* Button Styling */
 .button {
     color: darkblue;
