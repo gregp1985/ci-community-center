@@ -56,8 +56,19 @@ nav {
 .nav-dropdown-label {
     font-size: 2rem;
 }
-
-/* Book The Hall Section */
+/* Button Styling */
+.button {
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: darkblue;
+}
+.button:hover {
+    color: lightgrey;
+    background-color: darkblue;
+}
+/* Form Styling */
 .form-styling {
 border: 2px;
 border-color: darkblue;
@@ -73,16 +84,14 @@ padding: 5px;
 .flex100 {
     flex-basis: 100%;
 }
+.flex50 {
+    flex-basis: 50%;
+}
 .flex33 {
     flex-basis: 30%;
 }
 .flex-center {
     text-align: center;
-}
-#form-submit-button {
-    color: darkblue;
-    font-size: large;
-    font-weight: bold;
 }
 /* Footer */
 footer {

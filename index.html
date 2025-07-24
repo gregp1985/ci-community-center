@@ -93,7 +93,7 @@
                     Saturday's 8am-5pm<br></p>
                 <p><b>Cost:</b> £15/hour</p>
             </div>
-            <form action="book-a-badminton-court.html">
+            <form action="book-a-badminton-court.html" method="post">
             <input class="button" type="submit" value="Book a Court">
             </form>
         </div>
@@ -106,7 +106,9 @@
                 <p><b>When:</b> Tuesday's 6:30pm-8pm></p>
                 <p><b>Cost:</b> £12pp</p>
             </div>
-            <button>Register Interest</button>
+            <form action="tango-interest.html" method="post">
+            <input class="button" type="submit" value="Register Interest">
+            </form>
         </div>
       </section>
       <br>
@@ -121,15 +123,15 @@
         <form class="form-styling" action="success-hallbooking.html" method="post">
             <div class="form-element flex100">
               <label for="fullname">Full Name</label><br>
-              <input type="text" class="form-element-text" id="fullname" name="fullname" required>
+              <input type="text" id="fullname" name="fullname" required>
             </div>
             <div class="form-element flex100">
               <label for="email">Email Address</label><br>
-              <input type="email" class="form-element-text" id="email" name="email" required>
+              <input type="email" id="email" name="email" required>
             </div>
             <div class="form-element flex100">
               <label for="phone">Phone Number</label><br>
-              <input type="number" class="form-element-text" id="phone" name="phone" required>
+              <input type="number" id="phone" name="phone" required>
             </div>
             <div class="form-element flex33">
               <label for="date">Date of Event</label><br>
@@ -144,7 +146,7 @@
               <input type="time" id="time-end" name="time-end" required>
             </div>            
             <div class="form-element flex100 flex-center">
-              <input id="form-submit-button" type="submit" value="Book Now!">
+              <input class="button" type="submit" value="Book Now!">
             </div>
         </form>
         </div>
