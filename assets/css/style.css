@@ -3,7 +3,10 @@
 /* General Styles */
 body {
 font-family: "Ubuntu", sans-serif;
+max-width: 1000px;
+margin: auto;
 color: darkblue;
+background-color: #dddcdc;
 }
 h1,
 h2,
@@ -18,7 +21,7 @@ h2 {
 }
 /* Header Styles */
 header {
-    background-color: lightgrey;
+    background-color: #c7c4c4;
     color: darkblue;
     width: 100%;
     padding-top: 1rem;
@@ -30,7 +33,6 @@ header a {
 }
 /* Nav Links */
 nav {
-    background-color: lightgrey;
     padding-bottom: 1em;
     font-size: x-small;
     text-align: end;
@@ -75,10 +77,6 @@ gallery video {
 }
 .mw800 {
     max-width: 800px;
-    margin: auto;
-}
-.mw1000 {
-    max-width: 1000px;
     margin: auto;
 }
 /* Button Styling */
