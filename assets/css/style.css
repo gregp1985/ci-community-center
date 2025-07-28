@@ -68,13 +68,17 @@ gallery video {
     object-fit: contain;
     width: 100%;
 }
-/* Max widths */
+/* Max widths & Margins*/
 .mw600 {
     max-width: 600px;
     margin: auto;
 }
 .mw800 {
     max-width: 800px;
+    margin: auto;
+}
+.mw1000 {
+    max-width: 1000px;
     margin: auto;
 }
 /* Button Styling */
