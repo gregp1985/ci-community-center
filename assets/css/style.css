@@ -133,7 +133,8 @@ footer > div {
 .small-font {
     font-size: small;
 }
-.border-btm {
+.ftr-borders {
+    border-top: solid 1px white;
     border-bottom: solid 1px white;
 }
 #social-media-links {
@@ -156,10 +157,10 @@ footer > div {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .border-btm {
+    .ftr-borders {
+        border-top: none;
         border-bottom: none;
-    }
-    .border-left {
         border-left: solid 1px white;
+        border-right: solid 1px white;
     }
 }
