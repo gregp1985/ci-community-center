@@ -91,8 +91,23 @@
               </select>
             </div>
             <div class="form-element flex100">
-              <label for="bookingtime">Time (5pm-10pm Thursday & 8am-5pm Saturday)</label><br>
-              <input type="time" id="bookingtime" name="bookingtime" required><br>
+              <label for="bookingtime">Time (1 hour slots)</label><br>
+              <select id="bookingtime" name="bookingtime" required>
+                <option value="8am">8am (Sat Only)</option>
+                <option value="9am">9am (Sat Only)</option>
+                <option value="10am">10am (Sat Only)</option>
+                <option value="11am">11am (Sat Only)</option>
+                <option value="12pm">12pm (Sat Only)</option>
+                <option value="1pm">1pm (Sat Only)</option>
+                <option value="2pm">2pm (Sat Only)</option>
+                <option value="3pm">3pm (Sat Only)</option>
+                <option value="4pm">4pm</option>
+                <option value="5pm">5pm</option>
+                <option value="6pm">6pm</option>
+                <option value="7pm">7pm</option>
+                <option value="8pm">8pm (Thur Only)</option>
+                <option value="9pm">9pm (Thur Only)</option>
+              </select>
             </div>
             <div class="form-element flex100">
               <label for="number-people">Number of People</label><br>
