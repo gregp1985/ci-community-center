@@ -126,6 +126,10 @@ footer > div {
     padding-right: 10px;
     padding-bottom: 20px;
 }
+#contactus > p > a {
+    text-decoration: none;
+    color: inherit;
+}
 .small-font {
     font-size: small;
 }
@@ -133,14 +137,14 @@ footer > div {
     border-top: solid 1px white;
     border-bottom: solid 1px white;
 }
-#social-media-links {
+.social-media-links {
     list-style-type: none;
 }
-#social-media-links i {
+.social-media-links i {
     font-size: 120%;
     color: darkblue;
 }
-#social-media-links a {
+.social-media-links a {
     text-decoration: none;
     color: darkblue;
 }

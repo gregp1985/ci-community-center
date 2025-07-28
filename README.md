@@ -43,7 +43,8 @@ The site also allows local people to view pictures and videos of previous events
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for the CI Community Center. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer section also includes the address of the Community Center and the Opening Times
+  - The footer section also includes the address of the Community Center and email and telephone clickable contact options.
+  - The footer also allows users to see the openning hours for the Community Center.
 
 ![Footer]()
 
@@ -140,7 +141,7 @@ None at present.
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - GitHub repository created using the UI.
   - Site was created using the Visual Studio Code program and linked to the GitHub repository.
-  - Changes were committed and pushed to the Github Repository.
+  - Changes were committed and synchronised to the Github Repository.
   - Went to the GitHub online UI, Repository>>Settings>>Pages
   - From the source section drop-down menu, the main branch and the root directory were selected and saved.
   - GitHub then created the site and a detailed ribbon display to indicate the successful deployment was displayed.
