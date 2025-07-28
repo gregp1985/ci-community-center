@@ -11,6 +11,8 @@ background-color: #dddcdc;
 main {
     max-width: 800px;
     margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 h1,
 h2,
@@ -37,7 +39,8 @@ header a {
 }
 /* Nav Links */
 nav {
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
     font-size: x-small;
     text-align: end;
 }
