@@ -8,6 +8,10 @@ margin: auto;
 color: darkblue;
 background-color: #dddcdc;
 }
+main {
+    max-width: 800px;
+    margin: auto;
+}
 h1,
 h2,
 h3 {
@@ -69,15 +73,6 @@ gallery video {
 .image {
     object-fit: contain;
     width: 100%;
-}
-/* Max widths & Margins*/
-.mw600 {
-    max-width: 600px;
-    margin: auto;
-}
-.mw800 {
-    max-width: 800px;
-    margin: auto;
 }
 /* Button Styling */
 .button {
