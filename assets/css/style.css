@@ -5,7 +5,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     max-width: 1000px;
     margin: auto;
-    color: darkblue;
+    color: #00008b;
     background-color: #dddcdc;
 }
 main {
@@ -28,7 +28,7 @@ h2 {
 /* Header Styles */
 header {
     background-color: #a6a6a6;
-    color: darkblue;
+    color: #00008b;
     padding-top: 1rem;
     padding-right: 2rem;
 }
@@ -79,22 +79,22 @@ nav {
 }
 /* Button Styling */
 .button {
-    color: darkblue;
+    color: #00008b;
     background-color: #a6a6a6;
     font-family: "Montserrat", sans-serif;
     font-size: large;
     font-weight: bold;
     border-radius: 10%;
-    border-color: darkblue;
+    border-color: #00008b;
 }
 .button:hover {
     color: #a6a6a6;
-    background-color: darkblue;
+    background-color: #00008b;
 }
 /* Form Styling */
 .form-styling {
     border: 2px;
-    border-color: darkblue;
+    border-color: #00008b;
     border-style: solid;
     display: flex;
     flex-direction: row;
@@ -134,19 +134,19 @@ footer > div {
     font-size: small;
 }
 .ftr-borders {
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
 }
 .social-media-links {
     list-style-type: none;
 }
 .social-media-links i {
     font-size: 120%;
-    color: darkblue;
+    color: #00008b;
 }
 .social-media-links a {
     text-decoration: none;
-    color: darkblue;
+    color: #00008b;
 }
 
 /* Media queries */
