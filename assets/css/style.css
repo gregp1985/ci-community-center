@@ -21,7 +21,7 @@ h2 {
 }
 /* Header Styles */
 header {
-    background-color: #c7c4c4;
+    background-color: #a6a6a6;
     color: darkblue;
     width: 100%;
     padding-top: 1rem;
@@ -119,7 +119,7 @@ gallery video {
 }
 /* Footer */
 footer {
-    background-color: lightgrey;
+    background-color: #a6a6a6;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
