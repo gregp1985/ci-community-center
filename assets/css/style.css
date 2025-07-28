@@ -39,6 +39,7 @@ header a {
 }
 /* Nav Links */
 nav {
+    padding-top: 0.5rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
     font-size: x-small;
