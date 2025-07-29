@@ -166,6 +166,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The Social Media Links section was copied from the [LoveRunning Site Repository](https://github.com/gregp1985/love-running/blob/main/index.html) 
 - The README was templated from the [LoveRunning README Template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
 - Fonts 'Ubuntu' and 'Montserrat' were imported through [Google Fonts](https://fonts.google.com/)
+- The CSS code for the colour gradients used was generated on [CSS Gradient](https://cssgradient.io/)
 
 ### Media
 
