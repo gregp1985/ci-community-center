@@ -6,7 +6,8 @@ body {
     max-width: 1000px;
     margin: auto;
     color: #00008b;
-    background-color: #dddcdc;
+    background: #eeedff;
+    background: linear-gradient(90deg, rgba(238, 237, 255, 1) 0%, rgba(222, 222, 255, 1) 35%, rgba(194, 194, 255, 1) 100%);
 }
 main {
     max-width: 800px;
@@ -27,8 +28,8 @@ h2 {
 }
 /* Header Styles */
 header {
-    background-color: #a6a6a6;
-    color: #00008b;
+    background: #686869;
+    background: linear-gradient(262deg, rgba(104, 104, 105, 1) 0%, rgba(153, 153, 153, 1) 50%, rgba(177, 179, 181, 1) 100%);
     padding-top: 1rem;
     padding-right: 2rem;
 }
@@ -80,7 +81,8 @@ nav {
 /* Button Styling */
 .button {
     color: #00008b;
-    background-color: #a6a6a6;
+    background: #bfbfbf;
+    background: linear-gradient(39deg, rgba(191, 191, 191, 1) 1%, rgba(172, 172, 176, 1) 47%, rgba(140, 140, 140, 1) 100%);
     font-family: "Montserrat", sans-serif;
     font-size: large;
     font-weight: bold;
@@ -88,8 +90,9 @@ nav {
     border-color: #00008b;
 }
 .button:hover {
-    color: #a6a6a6;
-    background-color: #00008b;
+    color: #ccccdc;
+    background: #0900b5;
+    background: linear-gradient(90deg, rgba(9, 0, 181, 1) 0%, rgba(0, 0, 145, 1) 35%, rgba(0, 0, 139, 1) 100%);
 }
 /* Form Styling */
 .form-styling {
@@ -115,7 +118,8 @@ nav {
 }
 /* Footer */
 footer {
-    background-color: #a6a6a6;
+    background: #686869;
+    background: linear-gradient(262deg, rgba(104, 104, 105, 1) 0%, rgba(153, 153, 153, 1) 50%, rgba(177, 179, 181, 1) 100%);
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
